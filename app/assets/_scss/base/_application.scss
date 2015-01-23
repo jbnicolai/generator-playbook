@@ -22,6 +22,10 @@
  * ---------------------------------------------------------------------------
  */
 
+html, body {
+  height: 100%;
+}
+
 .wrap {
   @include outer-container;
 }
@@ -34,6 +38,8 @@
 .nav-external {
   padding: 1em;
   text-align: center;
+  position: absolute;
+  width: 100%;
 
   @include media($medium) {
     text-align: right;
