@@ -33,7 +33,9 @@
 
 .nav-external {
   padding: 1em;
+  position: absolute;
   text-align: center;
+  width: 100%;
 
   @include media($medium) {
     text-align: right;
